@@ -1,0 +1,29 @@
+Expense Category Name,xero code,xero code-old,Description,Account Type,Category Icon,CanOverrideSettings,IsReceiptRequired,Receipt Required Amount,IsMaximumAmountRequired,Max Allowed Amount,IsDescriptionRequired,Currency,Category Type,ExpenseType
+Office Supplies,,,All expenses on purchasing office supplies like stationery are recorded into the office supplies account.,Expense,11,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Telephone Expense,489,489 - 5.Telephone & Internet,"The expenses on your telephone, mobile and fax usage are accounted as telephone expenses.",Expense,Phone,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+IT and Internet Expenses,489,489 - 5.Telephone & Internet,"Money spent on your IT infrastructure and usage like  internet connection, purchasing computer equipment etc is recorded as an IT and Computer Expense.",Expense,Internet,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Services
+Lodging,, - ,Any expense related to putting up at motels etc while on business travel can be entered here.,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
+Dinner,, - ,,Expense,Food,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Dinner
+Incidentals,, - ,,Expense,15,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Incidentals
+1.Entertainment - Staff,420,420 - 1.Entertainment - Staff,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+1.Entertainment - Client,421,421 - 1.Entertainment - Client,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+1.General Expenses,429,429 - 1.General Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+1.Office Expenses,453,453 - 1.Office Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+1.Computer Expenses,458,458 - 1.Computer Expenses,,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Transport,, - ,,Expense,Automobile,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
+Airfares,, - ,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Reimbursable Client Expenses,611, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Lunch,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lunch
+Per diem,612, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Breakfast,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Breakfast
+International Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Telephone & Internet,489,489 - 5.Telephone & Internet,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+National Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+National Airfares,492,492 - 4.Travel - National - Airfares,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Air Travel
+National Accomodaltion,493,493 - 4.Travel - National - Accomodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
+National Transport,491,491 - 4.Travel - National - Transportation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
+Internation Accomodation,495,495 - 4.Travel - International - Accommodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
+Internal Airfares,494,494 - 4.Travel - International - Airfares,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Air Travel
+International Transport,496,496 - 4. Travel - Inernational - Transportation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
+Entertainmnet,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Software Expenses,455,455 - 1.Software Expenses,,,,,,,,,,,,

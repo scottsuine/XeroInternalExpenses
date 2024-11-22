@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Category Mapper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function sendToXero() {
+            fetch('/send-to-xero')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        showMessage('error-message', data.error);
+                    } else {
+                        const successCount = data.responses.filter(r => r.status === 200).length;
+                        const failCount = data.responses.length - successCount;
+                        const message = `Successfully sent ${successCount} bills to Xero. ${failCount} failed.`;
+                        showMessage('success-message', message);
+                    }
+                })
+                .catch(error => {
+                    showMessage('error-message', 'Error sending to Xero: ' + error);
+                });
+        }
+
+        function showMessage(className, message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = className;
+            messageDiv.textContent = message;
+            
+            const container = document.querySelector('.container');
+            const existingMessage = container.querySelector('.' + className);
+            if (existingMessage) {
+                container.removeChild(existingMessage);
+            }
+            container.insertBefore(messageDiv, container.firstChild);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Category Mapper</h1>
+        
+        {% if error %}
+        <div class="error-message">
+            {{ error }}
+        </div>
+        {% endif %}
+        
+        {% if warning_message %}
+        <div class="warning-message">
+            {{ warning_message }}
+        </div>
+        {% endif %}
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="upload-area">
+                <h3>Upload Expense CSV File</h3>
+                <input type="file" name="file" accept=".csv" required>
+            </div>
+            <button type="submit">Process Expenses</button>
+        </form>
+
+        {% if table_html %}
+        <div class="preview-section">
+            <h2>Processed Expenses</h2>
+            {{ table_html | safe }}
+        </div>
+        {% endif %}
+
+        {% if show_download %}
+        <div class="download-section">
+            <a href="{{ url_for('download') }}" class="download-button">Download Processed CSV</a>
+            <button onclick="sendToXero()" class="xero-button">Send to Xero</button>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html> 
