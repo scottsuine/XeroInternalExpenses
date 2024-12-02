@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Expense Category Mapper</title>
+    <title>Osmodal - Internal Expense Processor</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script>
         function sendToXero() {
@@ -38,7 +38,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Expense Category Mapper</h1>
+        <h1>Osmodal - Internal Expense Processor</h1>
+        Expoer the expsense form the Zoho Expenses and selct the file
         
         {% if error %}
         <div class="error-message">
@@ -65,6 +66,7 @@
             <h2>Processed Expenses</h2>
             {{ table_html | safe }}
         </div>
+        Download the processed files and u pload to Xero Bills
         {% endif %}
 
         {% if show_download %}
