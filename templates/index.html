@@ -39,7 +39,7 @@
 <body>
     <div class="container">
         <h1>Osmodal - Internal Expense Processor</h1>
-        Expoer the expsense form the Zoho Expenses and selct the file
+        Export the expenses form from Zoho Expenses and select the file.
         
         {% if error %}
         <div class="error-message">
@@ -66,13 +66,13 @@
             <h2>Processed Expenses</h2>
             {{ table_html | safe }}
         </div>
-        Download the processed files and u pload to Xero Bills
+        Download the processed file and upload to Xero Bills
         {% endif %}
 
         {% if show_download %}
         <div class="download-section">
             <a href="{{ url_for('download') }}" class="download-button">Download Processed CSV</a>
-            <button onclick="sendToXero()" class="xero-button">Send to Xero</button>
+            <!-- <button onclick="sendToXero()" class="xero-button">Send to Xero</button> -->
         </div>
         {% endif %}
     </div>
