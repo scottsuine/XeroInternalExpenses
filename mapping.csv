@@ -1,5 +1,5 @@
 Expense Category Name,xero code,xero code-old,Description,Account Type,Category Icon,CanOverrideSettings,IsReceiptRequired,Receipt Required Amount,IsMaximumAmountRequired,Max Allowed Amount,IsDescriptionRequired,Currency,Category Type,ExpenseType
-Office Supplies,,,All expenses on purchasing office supplies like stationery are recorded into the office supplies account.,Expense,11,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Office Supplies,453,,All expenses on purchasing office supplies like stationery are recorded into the office supplies account.,Expense,11,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 Telephone Expense,489,489 - 5.Telephone & Internet,"The expenses on your telephone, mobile and fax usage are accounted as telephone expenses.",Expense,Phone,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 IT and Internet Expenses,489,489 - 5.Telephone & Internet,"Money spent on your IT infrastructure and usage like  internet connection, purchasing computer equipment etc is recorded as an IT and Computer Expense.",Expense,Internet,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Services
 Lodging,, - ,Any expense related to putting up at motels etc while on business travel can be entered here.,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
