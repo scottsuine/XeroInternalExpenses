@@ -5,17 +5,17 @@ IT and Internet Expenses,489,489 - 5.Telephone & Internet,"Money spent on your I
 Lodging,, - ,Any expense related to putting up at motels etc while on business travel can be entered here.,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
 Dinner,, - ,,Expense,Food,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Dinner
 Incidentals,, - ,,Expense,15,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Incidentals
-1.Entertainment - Staff,420,420 - 1.Entertainment - Staff,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-1.Entertainment - Client,421,421 - 1.Entertainment - Client,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-1.General Expenses,429,429 - 1.General Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-1.Office Expenses,453,453 - 1.Office Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-1.Computer Expenses,458,458 - 1.Computer Expenses,,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-Transport,, - ,,Expense,Automobile,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
-Airfares,, - ,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Entertainment - Staff,420,420 - 1.Entertainment - Staff,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Entertainment - Client,421,421 - 1.Entertainment - Client,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+General Expenses,429,429 - 1.General Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Office Expenses,453,453 - 1.Office Expenses,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Computer Expenses,458,458 - 1.Computer Expenses,,Expense,lodging,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
+Transport,611, - ,,Expense,Automobile,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
+Airfares,611, - ,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 Reimbursable Client Expenses,611, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-Lunch,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lunch
+Lunch,611, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lunch
 Per diem,612, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
-Breakfast,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Breakfast
+Breakfast,611, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Breakfast
 International Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 Telephone & Internet,489,489 - 5.Telephone & Internet,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 National Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
