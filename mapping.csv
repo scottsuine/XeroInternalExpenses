@@ -20,10 +20,10 @@ International Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expens
 Telephone & Internet,489,489 - 5.Telephone & Internet,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 National Travel,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 National Airfares,492,492 - 4.Travel - National - Airfares,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Air Travel
-National Accomodation,493,493 - 4.Travel - National - Accomodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
+National Accommodation,493,493 - 4.Travel - National - Accomodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
 National Transport,491,491 - 4.Travel - National - Transportation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
-Internation Accomodation,495,495 - 4.Travel - International - Accommodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
-Internal Airfares,494,494 - 4.Travel - International - Airfares,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Air Travel
+International Accomodation,495,495 - 4.Travel - International - Accommodation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Lodging
+International Airfares,494,494 - 4.Travel - International - Airfares,,Expense,Travel,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Air Travel
 International Transport,496,496 - 4. Travel - Inernational - Transportation,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,Transport
 Entertainmnet,, - ,,Expense,Others,FALSE,FALSE,0,FALSE,0,FALSE,AUD,Expense,
 Software Expenses,455,455 - 1.Software Expenses,,,,,,,,,,,,
